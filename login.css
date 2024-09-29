@@ -1,0 +1,62 @@
+body {
+    background-color: #2c2c2c; /* Dark background */
+    color: white; /* White text */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+.container {
+    max-width: 400px; /* Max width for container */
+    margin: 100px auto; /* Centered on page */
+    padding: 20px; /* Padding for container */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #3a3a3a; /* Slightly lighter dark background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+h1 {
+    text-align: center; /* Center title */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin: 10px 0 5px; /* Margin for spacing */
+}
+
+input {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 10px; /* Margin below inputs */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding for button */
+    background-color: #000000; /* Green background */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #00d0ff; /* Darker green on hover */
+}
+
+#message {
+    margin-top: 10px; /* Margin above message */
+    text-align: center; /* Center message text */
+}
+
+.home-button {
+    display: block; /* Block display for home link */
+    text-align: center; /* Center text */
+    margin-top: 20px; /* Margin above */
+    color: #ffffff; /* Green text for home link */
+    text-decoration: none; /* No underline */
+}
+
+.home-button:hover {
+    text-decoration: underline; /* Underline on hover */
+}
